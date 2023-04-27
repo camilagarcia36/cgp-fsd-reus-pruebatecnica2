@@ -1,0 +1,13 @@
+package com.ejercicio;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Ex02ClinicaDentalApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Ex02ClinicaDentalApplication.class, args);
+	}
+
+}

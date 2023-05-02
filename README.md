@@ -22,3 +22,8 @@ Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería 
     6.Ver todas las citas que tengo como cliente (solo las propias) --- Da error 'Parameter value [1] did not match expected type [com.ejercicio.dto.Cliente (n/a)]' que no he conseguido solventar. 
     7.Ver todas las citas existentes (como dentista) X
     8.Ver todos los clientes registrados (como dentista) X
+
+#API
+
+GET CITAS
+localhost:8181/api/Citas

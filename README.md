@@ -23,6 +23,10 @@ Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería 
     7.Ver todas las citas existentes (como dentista) X
     8.Ver todos los clientes registrados (como dentista) X
 
+
+
+#ER
+https://github.com/camilagarcia36/cgp-fsd-reus-pruebatecnica2/blob/main/Clinica(1).jpg
 #API
 
 GET CITAS

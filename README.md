@@ -29,9 +29,10 @@ Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería 
 ![Clinica(1)](https://user-images.githubusercontent.com/78553396/235637688-04400231-beb5-4b56-8ccb-646613a3ffcc.jpg)
 
 
+
 ## API Reference
 
-#### Get all items
+#### Get all Citas
 
 ```http
   GET /api/Citas
@@ -48,6 +49,72 @@ Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería 
   PUT /api/Citas/{id}
 ```
 
+#### Post Citas
+```http
+  POST /api/Citas/
+```
+
+
 #### Delete Citas
 ```http
   DELETE /api/Citas/{id}
+```
+
+
+
+#### Get all Clientes
+
+```http
+  GET /api/Cliente
+```
+
+#### Get list of citas for cliente(error)
+GET /Cliente/{idcliente}/citas"
+
+#### Post Cliente
+```http
+  POST /api/Cliente
+```
+
+#### Get Cliente por id
+
+```http
+  GET /api/Cliente/{idcliente}
+```
+
+#### Put Cliente
+```http
+  PUT /api/Cliente/{idcliente}
+```
+
+#### Delete Cliente
+```http
+  DELETE /api/Cliente/{idcliente}
+
+```
+
+
+#### Get all dentistas
+
+```http
+  GET /api/dentistas
+```
+
+
+#### Get dentistas por id
+
+```http
+  GET /api/dentistas/{id}
+```
+
+#### Put dentista
+```http
+  PUT /api/dentistas/{id}
+```
+
+#### Delete dentista
+```http
+  DELETE /api/dentistas/{id}
+
+```
+

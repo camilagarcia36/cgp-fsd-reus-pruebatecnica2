@@ -2,8 +2,9 @@ package com.ejercicio.service;
 
 import java.util.List;
 
+
 import com.ejercicio.dto.Citas;
-import com.ejercicio.dto.Cliente;
+
 
 public interface ICitasService {
 
@@ -18,5 +19,6 @@ public interface ICitasService {
 
 	public void eliminarCitas(int id);//  DELETE
 	
-
+	public List<Citas> listCitasByCliente(int idcliente) ;
 }
+

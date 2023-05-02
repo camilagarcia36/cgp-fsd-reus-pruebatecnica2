@@ -3,6 +3,7 @@ package com.ejercicio.controller;
 import java.util.List;
 
 
+
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.*;
 
@@ -40,6 +41,12 @@ public class ClienteController {
 		return cliente;
 	}
 	
+	// Get list of visits for client
+	@GetMapping("/Cliente/{idcliente}/citas")
+	public List<Citas> listCitasByCliente(@PathVariable(name="idcliente")int idcliente) {
+		return citasServiceImpl.listCitasByCliente(idcliente);
+
+	}
 	@PutMapping("/Cliente/{idcliente}")
 	public Cliente actualizarCliente(@PathVariable(name="idcliente")int idcliente,@RequestBody Cliente cliente) {
 		
@@ -56,7 +63,7 @@ public class ClienteController {
 	}
 	
 	@DeleteMapping("/Cliente/{idcliente}")
-	public void eliminarCliente(@PathVariable(name="idclientes")int idcliente) {
+	public void eliminarCliente(@PathVariable(name="idcliente")int idcliente) {
 		clienteServiceImpl.eliminarCliente(idcliente);
 	}
 

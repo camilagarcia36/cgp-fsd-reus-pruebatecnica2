@@ -4,11 +4,14 @@ import java.util.List;
 
 
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ejercicio.dao.ICitasDAO;
 import com.ejercicio.dto.Citas;
+
+
 
 @Service
 public class CitasServiceImpl implements ICitasService {
@@ -21,6 +24,9 @@ public class CitasServiceImpl implements ICitasService {
 		return iCitasDAO.findAll();
 	}
 
+	public List<Citas> listCitasByCliente(int idcliente) {
+		return iCitasDAO.findCitasByCliente(idcliente);
+	}
 	
 	@Override
 	public Citas guardarCitas(Citas citas) {

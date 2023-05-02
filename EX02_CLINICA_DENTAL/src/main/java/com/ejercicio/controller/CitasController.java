@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import com.ejercicio.dto.Citas;
 import com.ejercicio.service.CitasServiceImpl;
 
+
+
 @RestController
 @RequestMapping("/api")
 public class CitasController {
@@ -32,6 +34,11 @@ public class CitasController {
 		return Citas;
 	}
 
+	@GetMapping("/Citas/Cliente/{idcliente}")
+	public List<Citas> listCitasByCliente(@PathVariable(name = "idcliente") int idcliente) {
+		return citasServiceImpl.listCitasByCliente(idcliente);
+	}
+	
 	@PutMapping("/Citas/{id}")
 	public Citas actualizarCitas(@PathVariable(name = "id") int id, @RequestBody Citas Citas) {
 

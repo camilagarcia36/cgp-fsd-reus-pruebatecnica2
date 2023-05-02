@@ -26,7 +26,8 @@ Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería 
 
 
 #ER
-https://github.com/camilagarcia36/cgp-fsd-reus-pruebatecnica2/blob/main/Clinica(1).jpg
+![Clinica(1)](https://user-images.githubusercontent.com/78553396/235637688-04400231-beb5-4b56-8ccb-646613a3ffcc.jpg)
+
 #API
 
 GET CITAS

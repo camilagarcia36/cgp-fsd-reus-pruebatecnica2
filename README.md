@@ -69,8 +69,9 @@ Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería 
 ```
 
 #### Get list of citas for cliente(error)
+```
 GET /Cliente/{idcliente}/citas
-
+```
 
 #### Post Cliente
 ```http

@@ -3,6 +3,7 @@ Prueba tecnica api Clinica.
 1.    Introducción
 
 En el presente proyecto del Bootcamp Full Stack correspondiente a la parte Spring Framework se espera que el alumno demuestre todos los conocimientos adquiridos en desarrollo de APIs. 
+
 2.    Descripción 
 
 Desde el departamento de producto nos piden crear el backend correspondiente al sistema de gestión de citas para una Clínica Dental.

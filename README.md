@@ -1,4 +1,4 @@
-# cgp-fsd-reus-pruebatecnica2
+# CLINICA
 Prueba tecnica api Clinica. 
 1.    Introducción
 

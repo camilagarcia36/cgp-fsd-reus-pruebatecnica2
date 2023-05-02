@@ -25,10 +25,29 @@ Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería 
 
 
 
-#ER
+## ER
 ![Clinica(1)](https://user-images.githubusercontent.com/78553396/235637688-04400231-beb5-4b56-8ccb-646613a3ffcc.jpg)
 
-#API
 
-GET CITAS
-localhost:8181/api/Citas
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/Citas
+```
+
+#### Get Citas por cliente
+
+```http
+  GET /api/Citas/Cliente/{idcliente}
+```
+
+#### Put Citas
+```http
+  PUT /api/Citas/{id}
+```
+
+#### Delete Citas
+```http
+  DELETE /api/Citas/{id}
